@@ -1,4 +1,9 @@
-#include "Stack and Queue.h"
+#include<stdio.h>
+#include<stdlib.h>
+#include<ctype.h>
+#include<math.h>
+#include<time.h>
+#include<string.h>
 struct stack
 {
 	struct stack* prev;
@@ -186,7 +191,7 @@ void queueempty()
 		printf("Queue is not empty");
 	}
 }
-void stackandqueuerun(void)
+int main()
 {
 	char funcNames[][100] =
 	{
